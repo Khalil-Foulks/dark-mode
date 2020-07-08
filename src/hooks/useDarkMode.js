@@ -13,7 +13,7 @@ const useDarkMode = (key) => {
         } else {
             body.classList.remove("dark-mode")
         }      
-    })
+    },[value])
     return [value, setValue]
 }
 
